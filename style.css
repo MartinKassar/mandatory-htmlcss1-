@@ -49,20 +49,7 @@ h1 {
     left: 0;
 
 } 
- /*
-.inner {
-    display: inline-block;
-    max-width: 1109px;
-    border: solid;
-    
-}
-*/
-
-/*
-article {
-    text-align: center;
-}
-*/
+ 
 
 p {
     max-width: 100%;
@@ -70,12 +57,16 @@ p {
     padding: 15;
 }
 body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
     padding: 0;
-    margin: 0;
+     margin: 0;
 }
 .inner {
     max-width: 900px;
     margin: 0 auto;
+    flex: 1;
 }
 
 footer {
@@ -92,4 +83,8 @@ footer {
  a {
      text-decoration: none;
      color: white;
+ }
+
+ strong {
+     text-decoration: underline wavy;
  }

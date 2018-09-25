@@ -106,3 +106,6 @@ td, th {
     padding: 10px;
 }
 
+strong {
+    text-decoration: underline wavy;
+}
