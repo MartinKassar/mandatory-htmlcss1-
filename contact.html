@@ -27,20 +27,33 @@
       <fieldset>
         <legend>Information</legend>
 
-        First name:<br>
-        <input type="text" name="firstname">
-        <br> Last name:<br>
-        <input type="text" name="lastname">
-        <br> Phone:
+        <label for="firstname">First Name</label>
+    <input type="text" id="firstname" name="firstname" placeholder="Your name.." required>
+    <br>
+    <br>
+        <label for="lastname">Last Name</label>
+    <input type="text" id="lastname" name="lastname" placeholder="Your name.." required>
+    <br>
+    <br>
+        <label for="email">Your Email</label>
+    <input type="email" id="email" name="email" placeholder="Your email.." required>
+        <br> 
         <br>
-        <input type="text" name="phone">
-        <br> Email:
-        <br>
-        <input type="text" name="email">
-        <br> Matter:
-        <br>
-        <input type="text" name="matter">
-        <br>
+        <label for="about">About</label>
+          <select id="about" name="about" required>
+            <option value="">Select one</option>
+            <option value="general">General</option> 
+            <option value="links">Links</option>       
+            <option value="movies">Movies</option>       
+          </select>
+          <br>
+          <br>
+         <label for="details">Details</label>
+    <textarea id="details" name="details" placeholder="Write something.." required></textarea>
+        
+          <br>
+            <br>
+          <label for="submit">Click the button to submit</label>
         <input type="submit">
 
 
@@ -53,6 +66,11 @@
   </div>
 
   <footer>
-    <div class="footer">Created by <i>Martin</i></div>
+    <div class="footer">Call us at <i>+5235246425</i> <br>
+    Email us at <i>fokfs@hotmail.com</i> <br>
+    Visit us at <i>main street 23</i>
+    
+    
+    </div>
   </footer>
 </body>
